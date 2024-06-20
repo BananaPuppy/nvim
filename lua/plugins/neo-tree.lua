@@ -16,6 +16,6 @@ return {
         }
       }
     })
-    vim.keymap.set('n', '<leader>e', ':Neotree filesystem reveal left<Enter>', {})
+    vim.keymap.set('n', '<leader>e', ':Neotree toggle<Enter>', {})
   end
 }
